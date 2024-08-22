@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=2 lang=javascript
- *
- * [2] Add Two Numbers
- */
-
-// @lc code=start
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -18,7 +11,6 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-
     let dummy = new ListNode(0);
     let p = l1, q = l2, curr = dummy;
     let carry = 0;
@@ -39,7 +31,4 @@ var addTwoNumbers = function (l1, l2) {
     }
 
     return dummy.next;
-
 };
-// @lc code=end
-
